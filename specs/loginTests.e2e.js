@@ -34,7 +34,7 @@ describe('Sauce Demo Login Tests (UC-1, UC-2, UC-3)', () => {
         await expect(login.errorMsg).toHaveTextContaining('Password is required');
     });
 
-    validUsers.forEach(user => {
+    validUsers.forEach(user => { 
         it(`UC-3: Valid Login with ${user} -> should reach inventory`, async () => {
             await login.login(user, 'secret_sauce');
 

@@ -1,0 +1,23 @@
+{
+  "name": "final_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satenVm/final_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satenVm/final_task/issues"
+  },
+  "homepage": "https://github.com/satenVm/final_task#readme",
+  "devDependencies": {
+    "@wdio/cli": "^9.20.0"
+  }
+}
