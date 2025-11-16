@@ -29,8 +29,8 @@
 2. Password: `secret_sauce`
 3. Validate dashboard title “Swag Labs”
 
-
-/project
+setTask
+ |
  ├─ /test
  │   ├─ /pageobjects
  │   │     ├─ login.page.js
@@ -42,3 +42,4 @@
  ├─ wdio.conf.js
  ├─ package.json
  └─ README.md
+

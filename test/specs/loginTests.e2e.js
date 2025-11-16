@@ -9,7 +9,7 @@ describe('Sauce Demo Login Tests (UC-1, UC-2, UC-3)', () => {
     });
 
     it('UC-1: Empty Credentials -> Username is required', async () => {
-        // enter then clear both fields
+
         await login.setUsername('anything');
         await login.setPassword('anything');
         await login.clearUsername();
